@@ -1,8 +1,8 @@
 import requests
 
 def fetch_weather(city):
-    api_key = 'your_api_key'  # Replace with your actual API key
-    url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
+    api_key = 'e7d703c87e5742aae02ef73c6ba49008'  # Replace with your actual API key
+    url = f'http://api.openweathermap.org/data/2.5/weather?dhaka&appid=e7d703c87e5742aae02ef73c6ba49008&units=metric'
 
     try:
         response = requests.get(url)

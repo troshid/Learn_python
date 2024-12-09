@@ -1,0 +1,8 @@
+import request, json
+apikey = "e7d703c87e5742aae02ef73c6ba49008"
+baseURL = https://api.openweathermap.org/data/2.5/weather
+cityName = input ("Enter your city : ")
+completeurl - baseURL +cityName + "&&appid=" + apikey
+response = requests.get (completeURL)
+data = response.json()
+print(data)
